@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 75px;
+}
+
+.intro-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.welcome-message {
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    padding: 20px;
+    margin-top: 400px;
+}
+.reverse-content{
+    display: flex;
+    padding: 20px;
+}
+
+.text-section {
+    width: 60%;
+    padding-top:170px;
+}
+
+.reverse-text-section {
+    width: 60%;
+    padding: 20px;
+}
+
+.image-section,.reverse-image-section {
+    width: 40%;
+    padding: 20px;
+}
+
+.side-image,.reverse-side-image {
+    width: 100%;
+    height: auto;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-section iframe {
+    width: 80%;
+    height: 450px; /* Adjust height as needed */
+}
+
+.para{
+    display: flex;
+    margin-top: 90px;
+    text-align: center;
+    padding: 10px;
+}
+
+.par {
+    position: relative;
+    display: flex;
+    margin-top: 75px;
+    font-size: larger;
+    line-height: 25px;
+    border: 2px solid rgb(233, 11, 11);
+    word-wrap: break-word;
+    background-color: rgb(42, 132, 132);
+}
+form {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 4px;
+    font-weight: 600;
+}
